@@ -1,3 +1,4 @@
-const div = `[&>div]: border px-6 py-24 rounded-2xl`;
-const p = `text-4xl text-amber-800 w-[90%]`;
-export { div, p };
+const div = `[&>div]: border px-6 py-12 rounded-2xl w-[30%]`;
+const p = `text-4xl text-amber-800 `;
+const input = `border p-4`
+export { div, p, input };
