@@ -4,6 +4,7 @@ import { Counter } from './components/Counter'
 import { Toggle } from './components/Toggle'
 import { Field } from './components/Field'
 import { Hide } from './components/Hide'
+import { Form } from './components/Form'
 function App() {
 
   return (
@@ -22,6 +23,10 @@ function App() {
         <Hide 
         div={div}
         p={p}
+         />
+         <Form 
+         div={div}
+         input={input}
          />
     </div>
   )
