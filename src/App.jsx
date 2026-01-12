@@ -21,6 +21,7 @@ function App() {
         />
         <Hide 
         div={div}
+        p={p}
          />
     </div>
   )

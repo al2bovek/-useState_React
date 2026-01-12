@@ -12,7 +12,7 @@ export const Field = ({ div, input, p }) => {
                 type="text"
                 placeholder="input"
                 onInput={getValue} />
-            <p className={`${p}`}>{value}</p>
+            <p className={`${p} text-amber-800`}>{value}</p>
         </div>
     )
 }
