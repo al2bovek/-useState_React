@@ -5,6 +5,7 @@ import { Toggle } from './components/Toggle'
 import { Field } from './components/Field'
 import { Hide } from './components/Hide'
 import { Form } from './components/Form'
+import { Counters } from './components/Counters'
 function App() {
 
   return (
@@ -27,6 +28,11 @@ function App() {
          <Form 
          div={div}
          input={input}
+         />
+
+         <Counters 
+         div={div}
+         p={p}
          />
     </div>
   )
